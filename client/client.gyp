@@ -63,6 +63,11 @@
             ],
           },
         }],
+        ['OS!="mac"', {
+          'sources!': [
+            'capture_context_mac.S',
+          ],
+        }],
       ],
       'direct_dependent_settings': {
         'include_dirs': [
